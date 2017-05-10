@@ -1,0 +1,102 @@
+body{
+  min-width: 600px;
+  position: relative;
+}
+
+#sidebar{
+    height: 100%;
+    min-height: 510px;
+    min-width: 200px;
+    border:5px;
+    margin: 10px;
+    border-radius: 1%;
+    float: left;
+    overflow: auto;
+    width: 20%;
+    padding-bottom: 100px;
+    background-color: #ddd;
+
+
+
+  }
+  #head{
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      color: blue;
+      
+    }
+  #sidebarUL{
+    padding-left: 20px;
+  }
+  #sidebarA{
+     padding-left: 50px; 
+  }
+  
+  
+#header{
+  text-align: center;
+}
+  table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+}
+th, td {
+  
+    padding: 8px;
+  }
+  table td.shrink {
+    white-space:nowrap
+}
+  #docb, #nurb, #patb, #repb, #othb, #adp, #nnp,
+  #addEmpForm, #upEmp, #budgetCost,#Doctor, #Nurse, #admittable, 
+  #nontable, #Reciptionist,#Others,#dele{
+    display: none;
+  }
+  
+
+  #h3{
+  text-align: center;
+}
+
+  
+  .box{
+  width: 170px;
+}
+  #emForm{
+  padding-top: 20px;
+  background-color: #555;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  position: absolute;
+  left: 25%;
+}
+#addEmpForm{
+  text-align: center;
+}
+  
+   #upform{
+    width: 100%;
+    background-color: #F1F1F1;
+}
+  }
+  #inupform{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .labl{
+    display: inline;  
+    left: 30%;
+  }
+  .inp{
+    position: absolute;
+    left: 22%;
+  }
+  #inupform :nth-child(20){
+    margin-left: 110px;
+  }
+/* End of adming Index page*/
+
